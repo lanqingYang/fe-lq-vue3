@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import FatherCmp from './FatherCmp.vue'
-import { onMounted,ref} from 'vue'
+import { onMounted,onUnmounted,ref} from 'vue'
 import bus from '@/utils/bus'
 import { VALUE_TRANSFER_BUS_KEY } from '@/constants/busKey'
 import './common.scss'
@@ -13,6 +13,11 @@ onMounted(()=>{
   bus.on(VALUE_TRANSFER_BUS_KEY, (data)=>{
     mittBusValue.value = data
   })
+})
+
+onUnmounted(() => {
+  // 组件卸载时，取消监听 mitt 事件，避免内存泄漏
+  bus.off(VALUE_TRANSFER_BUS_KEY)
 })
 
 // 5.Pinia 传值展示，父组件通过 Pinia 接收孙组件发送的值，展示在父组件区域

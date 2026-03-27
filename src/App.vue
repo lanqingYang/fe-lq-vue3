@@ -18,6 +18,7 @@ import HelloWorld from './components/HelloWorld.vue'
         <RouterLink to="/template-and-directive">模板语法与指令</RouterLink>
         <RouterLink to="/life-circle">生命周期</RouterLink>
         <RouterLink to="/pinia">Pinia</RouterLink>
+        <RouterLink to="/hooks">hooks</RouterLink>
       </nav>
     </div>
   </header>

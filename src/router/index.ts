@@ -34,6 +34,12 @@ const router = createRouter({
       path: '/template-and-directive',
       name: 'template-and-directive',
       component: () => import('../views/templateAndDirective/index.vue'),
+    },
+    // 生命周期
+    {
+      path: '/life-circle',
+      name: 'life-circle',
+      component: () => import('../views/lifeCircle/index.vue'),
     }
   ],
 })

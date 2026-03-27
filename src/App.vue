@@ -16,6 +16,7 @@ import HelloWorld from './components/HelloWorld.vue'
         <RouterLink to="/value-transfer">Value Transfer传值</RouterLink>
         <RouterLink to="/response">响应式核心</RouterLink>
         <RouterLink to="/template-and-directive">模板语法与指令</RouterLink>
+        <RouterLink to="/life-circle">生命周期</RouterLink>
       </nav>
     </div>
   </header>

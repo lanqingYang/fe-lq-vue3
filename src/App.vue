@@ -14,6 +14,7 @@ import HelloWorld from './components/HelloWorld.vue'
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/about">About</RouterLink>
         <RouterLink to="/value-transfer">Value Transfer传值</RouterLink>
+        <RouterLink to="/response">响应式核心</RouterLink>
       </nav>
     </div>
   </header>

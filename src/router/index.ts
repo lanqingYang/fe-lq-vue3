@@ -22,6 +22,12 @@ const router = createRouter({
       path: '/value-transfer',
       name: 'value-transfer',
       component: () => import('../views/valueTranssfer/index.vue'),
+    },
+    // 响应式核心
+    {
+      path: '/response',
+      name: 'response',
+      component: () => import('../views/response/index.vue'),
     }
   ],
 })

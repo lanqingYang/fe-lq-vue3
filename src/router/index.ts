@@ -28,6 +28,12 @@ const router = createRouter({
       path: '/response',
       name: 'response',
       component: () => import('../views/response/index.vue'),
+    },
+    // 响应式核心
+    {
+      path: '/template-and-directive',
+      name: 'template-and-directive',
+      component: () => import('../views/templateAndDirective/index.vue'),
     }
   ],
 })

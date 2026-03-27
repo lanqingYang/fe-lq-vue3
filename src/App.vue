@@ -17,6 +17,7 @@ import HelloWorld from './components/HelloWorld.vue'
         <RouterLink to="/response">响应式核心</RouterLink>
         <RouterLink to="/template-and-directive">模板语法与指令</RouterLink>
         <RouterLink to="/life-circle">生命周期</RouterLink>
+        <RouterLink to="/pinia">Pinia</RouterLink>
       </nav>
     </div>
   </header>

@@ -40,6 +40,12 @@ const router = createRouter({
       path: '/life-circle',
       name: 'life-circle',
       component: () => import('../views/lifeCircle/index.vue'),
+    },
+    // pinia
+    {
+      path: '/pinia',
+      name: 'pinia',
+      component: () => import('../views/pinia/index.vue'),
     }
   ],
 })

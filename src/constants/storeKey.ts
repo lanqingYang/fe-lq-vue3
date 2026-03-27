@@ -2,3 +2,6 @@
 
 // valueTransferStore key
 export const VALUE_TRANSFER_STORE_KEY = 'valueTransferStoreKey'
+
+// pinia 练习 登陆 key
+export const Login_STORE_KEY = 'LoginStoreKey'

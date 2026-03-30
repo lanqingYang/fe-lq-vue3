@@ -48,11 +48,17 @@ const router = createRouter({
       component: () => import('../views/pinia/index.vue'),
     },
     ,
-    // hooks
+    // hooks 1 倒计时
     {
       path: '/hooks',
       name: 'hooks',
       component: () => import('../views/hooks/index.vue'),
+    },
+    // hooks 2 request
+    {
+      path: '/hook-request',
+      name: 'hook-request',
+      component: () => import('../views/hooks/request.vue'),
     }
   ],
 })

@@ -59,6 +59,12 @@ const router = createRouter({
       path: '/hook-request',
       name: 'hook-request',
       component: () => import('../views/hooks/request.vue'),
+    },
+    // 组件进阶
+    {
+      path: '/component-advanced',
+      name: 'component-advanced',
+      component: () => import('../views/component-use/index.vue'),
     }
   ],
 })

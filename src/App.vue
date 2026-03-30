@@ -20,6 +20,7 @@ import HelloWorld from './components/HelloWorld.vue'
         <RouterLink to="/pinia">Pinia</RouterLink>
         <RouterLink to="/hooks">hook-倒计时</RouterLink>
         <RouterLink to="/hook-request">hook-request</RouterLink>
+        <RouterLink to="/component-advanced">组件进阶</RouterLink>
       </nav>
     </div>
   </header>
